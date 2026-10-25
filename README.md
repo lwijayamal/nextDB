@@ -1,6 +1,6 @@
 # Scrutiny Board Management System
 
-A web application and PostgreSQL database that manages the full life cycle of university examination papers: preparation, moderation, Head of Department (HOD) verification, scrutiny board review and final decision.
+A web application and SQL database that manages the full life cycle of university examination papers: preparation, moderation, Head of Department verification, scrutiny board review and final decision.
 
 **Team NextDB** | Department of Computing, Rajarata University of Sri Lanka | Database Management Systems | 2026
 
@@ -21,7 +21,7 @@ Open the live system and sign in with one of the accounts below.
 
 | Role | Username | Password |
 |---|---|---|
-| Admin | `admin` | `admin` |
+| Admin | `admin` | `admin1234` |
 | Lecturer | `Lecturer` | `admin1234` |
 | Head of Department | `hod` | `admin1234` |
 | Moderator | `modarator` | `admin1234` |
