@@ -36,7 +36,7 @@ Open the live system and sign in with one of the accounts below.
 
 | Layer | Technology |
 |---|---|
-| Database | PostgreSQL (hosted on Supabase) |
+| Database | SQL (hosted on Supabase) |
 | Database logic | SQL and PL/pgSQL: constraints, functions, triggers, views, indexes |
 | Front end | Web application (source in this repository) |
 | Hosting | Vercel (deployed from GitHub) |
@@ -98,22 +98,3 @@ Pending Moderation -> Under Moderation -> Revision Required (back to moderation)
 
 ---
 
-## Setting Up the Database
-
-1. Create a Supabase project and open the SQL editor.
-2. Run the SQL script in this order: `users` and `audit_log`, reference and staff tables, boards and timetable, `exam_papers`, the paper-dependent tables, indexes, functions, triggers, views.
-3. Optionally load the sample data (2 courses, 1 examination, 2 papers, 1 board) for testing.
-4. Put the Supabase connection settings in the Vercel project's environment variables. Never commit them to the repository.
-5. Connect this GitHub repository to Vercel and deploy.
-
----
-
-## Team Members
-
-| No. | Name | Reg. No. | Index No. |
-|---|---|---|---|
-| 1 | W.M. Lahiru Sathsara | ICT/2024/134 | 6734 |
-| 2 | K.S. Heshan | ICT/2024/051 | 6664 |
-| 3 | W.A.S.K. Wickramasinghe | ICT/2024/133 | 6733 |
-| 4 | M.K. Thisari Thathsara | ICT/2024/120 | 6721 |
-| 5 | U.R.G.N.H. Bandara | ICT/2024/016 | 6630 |
